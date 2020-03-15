@@ -223,12 +223,6 @@ class BreakingBadTest(unittest.TestCase):
     @patch('src.breaking_bad_quotes.requests.get')
     def test_get_random_quote(self, mock_get):
 
-        """
-        list_of_quotes = []
-        for i in range(len(quotes)):
-            list_of_quotes.append(quotes[i]['quote'])
-        """
-
         # Configure the mock to return a response with an OK status code. Also, the mock should have
         # a `json()` method that returns.
         mock_get.return_value = Mock(ok=True)
