@@ -17,6 +17,8 @@ class BrakingBad:
 
     @staticmethod
     def get_list_quotes(num):
+        if num > 53:
+            return 'Error - Up to 53'
         req = requests.get(BrakingBad.base + 'quotes/' + str(num))
         list_quotes = req.json()
         res = []
@@ -24,7 +26,3 @@ class BrakingBad:
             res.append(list_quotes[i]['quote'])
         return res
 
-
-print(BrakingBad.get_random_quote())
-
-#print(BrakingBad.get_list_quotes(3))
