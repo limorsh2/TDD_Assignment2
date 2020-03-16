@@ -4,7 +4,7 @@
 * [Status](#status)
 
 ## General info
-This project uses "Breaking Bad" API and randomly prints quotes.
+This project uses "Breaking Bad" API and randomly prints actores quotes.
 
 ## Technologies
 Project is created with: 
