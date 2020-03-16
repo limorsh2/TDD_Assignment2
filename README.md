@@ -9,7 +9,7 @@ This project uses "Breaking Bad" API and randomly prints quotes.
 ## Technologies
 Project is created with: 
 * Python version: 3.7.
-* Library - Pylint.
+* Library : Pylint.
 
 ## Status
 Finished.
