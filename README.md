@@ -2,7 +2,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Status](#status)
-* [Setup](#setup)
 
 ## General info
 This project uses "Breaking Bad" API and randomly prints quotes.
